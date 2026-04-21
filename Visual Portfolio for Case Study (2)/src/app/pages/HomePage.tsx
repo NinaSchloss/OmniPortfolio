@@ -34,11 +34,11 @@ export function HomePage() {
             Hi there, I'm <span className="font-semibold">Nina Schloss</span>
           </h1>
           <div className="text-xl md:text-2xl text-gray-600 leading-relaxed space-y-6">
-            <p>
-              I'm a UX/User Researcher based out of 📍Raleigh, NC. I use varying qualitative and quantitative research techniques to uncover human insights—user behaviors, needs, pain points, and motivations—to guide tactful design of products.
+            <p className="font-medium text-gray-800">
+              Senior UX Researcher | Product Strategist
             </p>
             <p>
-              At the end of the day, I just want to help people. I'm driven by my curiosity, empathy, and fascination with technology to explore various ways we can utilize technology to help users and businesses effortlessly achieve their goals and needs.
+              I bridge the gap between human intent and digital execution within a range of industries including complex e-commerce and regulated environments. Helping teams move beyond the feature factory, I use mixed-methods research to quantify the frequency and impact of user needs. My work provides the strategic compass teams need to navigate constraints and build effortless, transformative digital products.
             </p>
           </div>
         </div>
