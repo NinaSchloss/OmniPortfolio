@@ -51,7 +51,7 @@ export function HomePage() {
       {/* Case Studies Section */}
       <section className="py-20 px-6 flex-1">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl mb-12 text-center text-gray-800">Selected Work</h2>
+          <h2 className="text-3xl mb-12 text-center text-gray-800">Case Studies</h2>
           
           <div className="grid md:grid-cols-2 gap-10">
             {caseStudies.map((study) => (
