@@ -4,7 +4,7 @@ import { ResearchPhase } from '../components/research-phase';
 // Since we want to keep the original content intact without breaking the Lowe's page, 
 // we will build a tailored Hero and Challenge for this page using the same Tailwind classes.
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import { AlertCircle, Zap } from 'lucide-react';
+import { AlertCircle, Zap, Mail, Phone, Linkedin } from 'lucide-react';
 
 export function BounceRateCaseStudy() {
   const methodologies = [
@@ -189,11 +189,22 @@ export function BounceRateCaseStudy() {
       {/* Reused Footer Section (Since it contains general project info, we'll keep it or create a simplified one) */}
       <footer className="py-16 px-6 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto">
-          <div className="border-t border-gray-700 pt-8 mt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-gray-400">
-                © 2026 Nina Schloss UX Research Portfolio
-              </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p className="text-gray-400">
+              © 2026 Nina Schloss UX Research Portfolio
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 items-center text-gray-400">
+              <a href="tel:2406146357" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Phone className="w-4 h-4" />
+                <span>240-614-6357</span>
+              </a>
+              <a href="mailto:nina.n.schloss@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Mail className="w-4 h-4" />
+                <span>nina.n.schloss@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/ninaschloss" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>

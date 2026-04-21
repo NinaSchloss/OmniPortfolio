@@ -1,4 +1,4 @@
-import { Award, Mail, Linkedin, Globe } from 'lucide-react';
+import { Award, Mail, Linkedin, Phone } from 'lucide-react';
 
 export function FooterSection() {
   return (
@@ -41,20 +41,22 @@ export function FooterSection() {
         </div>
 
         <div className="border-t border-gray-700 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-gray-400">
               © 2026 UX Research Portfolio - Lowe's Omnichannel Case Study
             </p>
-            <div className="flex gap-4">
-              <button className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center transition-colors">
-                <Mail className="w-5 h-5" />
-              </button>
-              <button className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center transition-colors">
+            <div className="flex flex-col sm:flex-row gap-6 items-center text-gray-400">
+              <a href="tel:2406146357" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Phone className="w-4 h-4" />
+                <span>240-614-6357</span>
+              </a>
+              <a href="mailto:nina.n.schloss@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Mail className="w-4 h-4" />
+                <span>nina.n.schloss@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/ninaschloss" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
-              </button>
-              <button className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center transition-colors">
-                <Globe className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

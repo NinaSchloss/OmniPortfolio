@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { ArrowRight, User } from 'lucide-react';
+import { ArrowRight, User, Mail, Phone, Linkedin } from 'lucide-react';
 import lowesHeroImage from 'figma:asset/875d1543ccd466d0cb54f4927a011af45218cc81.png';
 
 export function HomePage() {
@@ -88,11 +88,22 @@ export function HomePage() {
 
       <footer className="py-16 px-6 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto">
-          <div className="border-t border-gray-700 pt-8 mt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-gray-400">
-                © 2026 Nina Schloss UX Research Portfolio
-              </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p className="text-gray-400">
+              © 2026 Nina Schloss UX Research Portfolio
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 items-center text-gray-400">
+              <a href="tel:2406146357" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Phone className="w-4 h-4" />
+                <span>240-614-6357</span>
+              </a>
+              <a href="mailto:nina.n.schloss@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Mail className="w-4 h-4" />
+                <span>nina.n.schloss@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/ninaschloss" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>
