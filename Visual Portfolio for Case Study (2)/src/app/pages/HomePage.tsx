@@ -6,7 +6,7 @@ export function HomePage() {
     {
       id: 'lowes',
       title: "Optimizing the Lowe's Omnichannel Store Map Experience",
-      description: "Bridging the physical and digital divide. A multi-phased UX research initiative that won the 2025 Webby Award.",
+      description: "Bridging the physical and digital divide. A multi-phased UX research initiative that contributed to the 2025 Webby Award-winning Store Mode.",
       link: '/lowes-case-study',
       color: 'bg-blue-600',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1080'
