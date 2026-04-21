@@ -1,6 +1,5 @@
 import { Link } from 'react-router';
 import { ArrowRight, User } from 'lucide-react';
-import { FooterSection } from '../components/footer-section';
 
 export function HomePage() {
   const caseStudies = [
@@ -86,7 +85,17 @@ export function HomePage() {
         </div>
       </section>
 
-      <FooterSection />
+      <footer className="py-16 px-6 bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="border-t border-gray-700 pt-8 mt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p className="text-gray-400">
+                © 2026 Nina Schloss UX Research Portfolio
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
