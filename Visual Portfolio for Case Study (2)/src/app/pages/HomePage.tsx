@@ -27,8 +27,12 @@ export function HomePage() {
       {/* Intro Section */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-8 flex items-center justify-center overflow-hidden shadow-lg">
-            <User className="w-12 h-12 text-gray-500" />
+          <div className="w-32 h-32 rounded-full mx-auto mb-8 overflow-hidden shadow-xl border-4 border-white">
+            <img 
+              src="https://images.squarespace-cdn.com/content/v1/5fb15a1f2624f40e728a5820/1605472000961-TSGPDN6YIJGNDBE83QAR/me.jpg" 
+              alt="Nina Schloss" 
+              className="w-full h-full object-cover"
+            />
           </div>
           <h1 className="text-5xl md:text-6xl mb-6 font-light">
             Hi there, I'm <span className="font-semibold">Nina Schloss</span>
