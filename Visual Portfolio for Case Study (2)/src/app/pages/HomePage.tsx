@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { ArrowRight, User } from 'lucide-react';
+import lowesHeroImage from 'figma:asset/875d1543ccd466d0cb54f4927a011af45218cc81.png';
 
 export function HomePage() {
   const caseStudies = [
@@ -9,7 +10,7 @@ export function HomePage() {
       description: "Bridging the physical and digital divide. A multi-phased UX research initiative that contributed to the 2025 Webby Award-winning Store Mode.",
       link: '/lowes-case-study',
       color: 'bg-blue-600',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1080'
+      image: lowesHeroImage
     },
     {
       id: 'bounce-rate',
